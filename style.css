@@ -1,0 +1,113 @@
+/** given styles **/
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+
+/** reset **/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style-type: none;
+}
+
+
+/** color **/
+
+:root {
+    --Red: hsl(0, 78%, 62%);
+    --Cyan: hsl(180, 62%, 55%);
+    --Orange: hsl(34, 97%, 64%);
+    --Blue: hsl(212, 86%, 64%);
+    --VeryDarkBlue: hsl(234, 12%, 34%);
+    --GrayishBlue: hsl(229, 6%, 66%);
+    --VeryLightGray: hsl(0, 0%, 98%);
+}
+
+.red {
+    color: var(--Red)
+}
+
+.cyan {
+    color: var(--Cyan)
+}
+
+.orange {
+    color: var(--Orange)
+}
+
+.blue {
+    color: var(--Blue)
+}
+
+.darkblue {
+    color: var(--VeryDarkBlue)
+}
+
+.grayblue {
+    color: var(--GrayishBlue)
+}
+
+.lightgray {
+    color: var(--VeryLightGray)
+}
+
+
+/** weights **/
+
+.weight-light {
+    font-weight: 200;
+}
+
+.weight-mid {
+    font-weight: 400;
+}
+
+.weight-heavy {
+    font-weight: 600;
+}
+
+
+/** text-size **/
+
+.text-small {
+    font-size: 15px;
+}
+
+.text-mid {
+    font-size: 1.3em;
+}
+
+.text-big {
+    font-size: 2em;
+}
+
+
+/** placement **/
+
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+.top {
+    padding: 25px;
+    text-align: center;
+}
+
+.bottom {
+    padding: 5px;
+}
